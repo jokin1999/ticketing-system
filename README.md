@@ -1,2 +1,3 @@
-# ticketing-system
-随机售票系统
+# 随机售票系统
+
+运行后于根目录生成保存座位JSON数据的文件`field.db`
