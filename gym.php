@@ -205,12 +205,6 @@ function create_field(int $chunk, int $min, int $max, &$field, int $delta = 2) :
       }
     }
   }
-  $cache = array();
-  for ($i=0; $i < $chunk; $i++) {
-    for ($j=0; $j < ($max-$min)/$delta+1; $j++) {
-      $cache[$i][$j][$k] = $min+$delta*$j; // 空座数量
-    }
-  }
 }
 
 /**
